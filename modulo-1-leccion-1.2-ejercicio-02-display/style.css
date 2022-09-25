@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px;
+  border-color: red;
+}
+.block {
+  display: block;
+  background-color: blue;
+}
+.inline {
+  display: inline;
+  background-color: pink;
+}
+.inline-block {
+  display: inline-block;
+  background-color: yellow;
+}
+
+.none {
+  display: none;
+  background-color: green;
+}

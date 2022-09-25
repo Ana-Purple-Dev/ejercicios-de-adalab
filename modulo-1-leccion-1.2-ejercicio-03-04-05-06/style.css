@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-image: url(./images/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  border-width: 5px;
+  margin: auto;
+}
+
+/* EJERCICIO 06 TODO EN SU CAJA */
+
+.container {
+    border: 1px solid deeppink;
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+    /* Añadir propiedad overflow */
+  }
+  .container--2 {
+    height: 200px;
+    overflow: scroll;
