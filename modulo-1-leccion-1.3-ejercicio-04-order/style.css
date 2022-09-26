@@ -1,0 +1,32 @@
+.container-padre {
+  display: flex;
+  flex-wrap: wrap;
+  width: 710px;
+}
+.card-hija {
+  width: 50%;
+}
+.bg-gray {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+}
+
+.destacada {
+  background: red;
+  width: 100%;
+  order: 0;
+}
+
+.card-hija:nth-child(1) {
+  order: 1;
+}
+.card-hija:nth-child(2) {
+  order: 2;
+}
+.card-hija:nth-child(3) {
+  order: 3;
+}
+.card-hija:nth-child(4) {
+  order: 4;
+}
