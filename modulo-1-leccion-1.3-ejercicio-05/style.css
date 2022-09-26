@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.main,
+.footer {
+  font-weight: bold;
+  padding: 4rem;
+}
+.header {
+  background-color: darkgray;
+}
+
+.main {
+  background-color: gray;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: orange;
+}
