@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: purple;
+  height: 20vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+}
+.main {
+  position: relative;
+  top: 25vh;
+}
